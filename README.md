@@ -30,3 +30,20 @@ Security Assertion Markup Language (SAML) 2.0, and AWS.
 Permissions in AWS are either identity-based or resource-based. Identity-based permissions specify what an IAM user ,or a role may do. Resource-based permissions specify
 what an AWS resource, such as an S3 bucket or an SNS topic, is allowed to do or who
 can have access to it
+There are two types of policies: managed and inline. Managed policies apply to
+users, groups, and roles but not to resources.
+
+Inline policies are created and attached directly to a specific user, group, or role.
+When an entity is deleted, the inline policies embedded within it are deleted also.
+Resource-based policies are always inline
+
+### Logging and alerting
+
+CloudWatch is an AWS component for monitoring resources and services running on
+AWS, setting alarms based on a wide range of metrics, and viewing statistics on the performance of your resources. 
+
+### CloudTrail
+CloudTrail is an AWS service that records API calls. It records information such as
+the identity of the API caller, the source IP address, and the event. This data is saved in
+a log file in an S3 bucket.  CloudTrail supports a number of
+AWS services including CloudSearch, DynamoDB, Kinesis, API Gateway, and Lambda
