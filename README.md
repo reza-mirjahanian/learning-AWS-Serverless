@@ -21,7 +21,12 @@ using SNS topics
 
 ### Federation
 
-Federation is another concept that’s discussed often in the context of roles. Federa-
-tion is the process of creating a trust relationship between an external identity pro-
-vider  such  as  Facebook,  Google,  or  an  enterprise  identity  system  that  supports
+Federation is another concept that’s discussed often in the context of roles. Federation 
+is the process of creating a trust relationship between an external identity provider  such  as  Facebook,  Google,  or  an  enterprise  identity  system  that  supports
 Security Assertion Markup Language (SAML) 2.0, and AWS.
+
+### Permissions in AWS
+
+Permissions in AWS are either identity-based or resource-based. Identity-based permissions specify what an IAM user ,or a role may do. Resource-based permissions specify
+what an AWS resource, such as an S3 bucket or an SNS topic, is allowed to do or who
+can have access to it
