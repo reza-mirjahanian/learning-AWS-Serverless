@@ -19,3 +19,9 @@ using SNS topics
 
  Pipes and filters pattern
 
+### Federation
+
+Federation is another concept that’s discussed often in the context of roles. Federa-
+tion is the process of creating a trust relationship between an external identity pro-
+vider  such  as  Facebook,  Google,  or  an  enterprise  identity  system  that  supports
+Security Assertion Markup Language (SAML) 2.0, and AWS.
