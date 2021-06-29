@@ -57,3 +57,15 @@ AWS CodePipeline automatically builds, tests and launches an application each ti
 ### AWS CodeDeploy
 AWS CodeDeploy is a fully managed deployment service that automates software deployments to a variety of compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and your on-premises serve
 An application specification file (AppSpec file), which is unique to CodeDeploy, is a YAML-formatted or JSON-formatted file. The AppSpec file is used to manage each deployment as a series of lifecycle event hooks, which are defined in the file.
+
+### Blue/Green Strategy
+The blue/green deployment strategy creates two independent infrastructure environments. The blue environment contains the previous code or configuration, while the green environment contains the newest code or configurations. Traffic is then shifted to the newest environment (green) and diverted away from the previous environment (blue) by redirecting the DNS record to green's load balancer using Route 53.
+
+### Amazon ECR
+Amazon Elastic Container Registry (ECR) is a fully managed container registry that makes it easy to store, manage, share, and deploy your container images and artifacts anywhere. Amazon ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure. Amazon ECR hosts your images in a highly available and high-performance architecture, allowing you to reliably deploy images for your container applications.
+
+### AWS CloudFormation 
+AWS CloudFormation gives you an easy way to model a collection of related AWS and third-party resources, provision them quickly and consistently, and manage them throughout their lifecycles, by treating infrastructure as code. A CloudFormation template describes your desired resources and their dependencies 
+
+
+
