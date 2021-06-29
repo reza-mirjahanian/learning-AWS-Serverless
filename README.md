@@ -47,3 +47,7 @@ CloudTrail is an AWS service that records API calls. It records information such
 the identity of the API caller, the source IP address, and the event. This data is saved in
 a log file in an S3 bucket.  CloudTrail supports a number of
 AWS services including CloudSearch, DynamoDB, Kinesis, API Gateway, and Lambda
+
+### AWS CodePipeline
+AWS CodePipeline automatically builds, tests and launches an application each time the code is changed; a developer uses a graphic user interface to model workflow configurations for the release process within the pipeline. A development team can specify and run actions or a group of actions, which is called a stage. For example, a developer would specify which tests CodePipeline will run and to which pre-production environments it should deploy. The service can then run these actions through the parallel execution process, in which multiple processors handle computing tasks simultaneously to accelerate workflows.
+
