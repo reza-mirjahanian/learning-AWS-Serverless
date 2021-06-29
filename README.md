@@ -51,3 +51,9 @@ AWS services including CloudSearch, DynamoDB, Kinesis, API Gateway, and Lambda
 ### AWS CodePipeline
 AWS CodePipeline automatically builds, tests and launches an application each time the code is changed; a developer uses a graphic user interface to model workflow configurations for the release process within the pipeline. A development team can specify and run actions or a group of actions, which is called a stage. For example, a developer would specify which tests CodePipeline will run and to which pre-production environments it should deploy. The service can then run these actions through the parallel execution process, in which multiple processors handle computing tasks simultaneously to accelerate workflows.
 
+### AWS CodeCommit
+(Bitbucket!),AWS CodeCommit is a secure, highly scalable, managed source control service that hosts private Git repositories. 
+
+### AWS CodeDeploy
+AWS CodeDeploy is a fully managed deployment service that automates software deployments to a variety of compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and your on-premises serve
+An application specification file (AppSpec file), which is unique to CodeDeploy, is a YAML-formatted or JSON-formatted file. The AppSpec file is used to manage each deployment as a series of lifecycle event hooks, which are defined in the file.
