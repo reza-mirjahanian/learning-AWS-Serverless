@@ -25,3 +25,11 @@ You can reduce your Amazon EC2 costs by making a commitment to a specific instan
 
 #### Spot Instances
 Request unused EC2 instances, which can reduce your Amazon EC2 costs significantly.
+
+### Amazon Machine Images (AMI)
+An Amazon Machine Image (AMI) provides the information required to launch an instance. You must specify an AMI when you launch an instance. 
+
+All AMIs are categorized as either backed by Amazon EBS or backed by instance store.
+
+### Amazon Accelerated computing
+Accelerated computing instances use hardware accelerators, or co-processors, to perform some functions, such as floating point number calculations, graphics processing, or data pattern matching, more efficiently than is possible in software running on CPUs.
