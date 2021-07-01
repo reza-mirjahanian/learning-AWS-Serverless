@@ -44,3 +44,23 @@ Amazon EI distributes model operations defined by TensorFlow, Apache MXNet, and 
 
 ### EC2 Fleet
 An EC2 Fleet contains the configuration information to launch a fleet—or group—of instances. In a single API call, a fleet can launch multiple instance types across multiple Availability Zones
+
+### Spot instances [Reduce cost]
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud. Spot Instances are available at up to a 90% discount compared to On-Demand prices. You can use Spot Instances for various stateless, fault-tolerant, or flexible applications such as big data, containerized workloads, CI/CD, web servers, high-performance computing (HPC), and test & development workloads. Because Spot Instances are tightly integrated with AWS services such as Auto Scaling, EMR, ECS, CloudFormation, Data Pipeline and AWS Batch, you can choose how to launch and maintain your applications running on Spot Instances.
+reliability is not guaranteed, and the cloud provider can interrupt these instances at short notice to reclaim capacity.
+Amazon gives you 2 minutes, Azure and Google only 30 seconds.
+
+### Automated monitoring tools
+#### System status checks 
+#### Instance status checks
+#### Amazon CloudWatch alarms 
+#### Amazon EventBridge
+automate your AWS services and respond automatically to system events. 
+#### Amazon CloudWatch Logs
+#### CloudWatch agent 
+collect logs and system-level metrics from both hosts and guests on your EC2 instances and on-premises servers.
+
+### Placement groups
+#### Cluster 
+#### Spread
+#### Partition 
