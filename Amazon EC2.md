@@ -59,3 +59,8 @@ automate your AWS services and respond automatically to system events.
 #### Amazon CloudWatch Logs
 #### CloudWatch agent 
 collect logs and system-level metrics from both hosts and guests on your EC2 instances and on-premises servers.
+
+### Placement groups
+#### Cluster 
+#### Spread
+#### Partition 
